@@ -1,0 +1,23 @@
+import * as i0 from "@angular/core";
+import * as i1 from "./datepicker.module";
+import * as i2 from "../../node_modules/ionic-angular/components/action-sheet/action-sheet-component.ngfactory";
+import * as i3 from "../../node_modules/ionic-angular/components/alert/alert-component.ngfactory";
+import * as i4 from "../../node_modules/ionic-angular/components/app/app-root.ngfactory";
+import * as i5 from "../../node_modules/ionic-angular/components/loading/loading-component.ngfactory";
+import * as i6 from "../../node_modules/ionic-angular/components/modal/modal-component.ngfactory";
+import * as i7 from "../../node_modules/ionic-angular/components/picker/picker-component.ngfactory";
+import * as i8 from "../../node_modules/ionic-angular/components/popover/popover-component.ngfactory";
+import * as i9 from "../../node_modules/ionic-angular/components/select/select-popover-component.ngfactory";
+import * as i10 from "../../node_modules/ionic-angular/components/toast/toast-component.ngfactory";
+import * as i11 from "../components/datepicker.component.ngfactory";
+import * as i12 from "../components/modal.component.ngfactory";
+import * as i13 from "@angular/common";
+import * as i14 from "@angular/forms";
+import * as i15 from "../components/datepicker.modal";
+import * as i16 from "ionic-angular/components/app/app";
+import * as i17 from "ionic-angular/config/config";
+import * as i18 from "../services/datepicker.service";
+import * as i19 from "ionic-angular/module";
+var DatePickerModuleNgFactory = i0.ɵcmf(i1.DatePickerModule, [], function (_l) { return i0.ɵmod([i0.ɵmpd(512, i0.ComponentFactoryResolver, i0.ɵCodegenComponentFactoryResolver, [[8, [i2.ActionSheetCmpNgFactory, i3.AlertCmpNgFactory, i4.IonicAppNgFactory, i5.LoadingCmpNgFactory, i6.ModalCmpNgFactory, i7.PickerCmpNgFactory, i8.PopoverCmpNgFactory, i9.SelectPopoverNgFactory, i10.ToastCmpNgFactory, i11.DatePickerComponentNgFactory, i12.ModalCmpNgFactory]], [3, i0.ComponentFactoryResolver], i0.NgModuleRef]), i0.ɵmpd(4608, i13.NgLocalization, i13.NgLocaleLocalization, [i0.LOCALE_ID, [2, i13.ɵa]]), i0.ɵmpd(4608, i14.ɵi, i14.ɵi, []), i0.ɵmpd(4608, i14.FormBuilder, i14.FormBuilder, []), i0.ɵmpd(4608, i15.DatePickerController, i15.DatePickerController, [i16.App, i17.Config]), i0.ɵmpd(4608, i18.DateService, i18.DateService, []), i0.ɵmpd(512, i13.CommonModule, i13.CommonModule, []), i0.ɵmpd(512, i14.ɵba, i14.ɵba, []), i0.ɵmpd(512, i14.FormsModule, i14.FormsModule, []), i0.ɵmpd(512, i14.ReactiveFormsModule, i14.ReactiveFormsModule, []), i0.ɵmpd(512, i19.IonicModule, i19.IonicModule, []), i0.ɵmpd(512, i1.DatePickerModule, i1.DatePickerModule, [])]); });
+export { DatePickerModuleNgFactory as DatePickerModuleNgFactory };
+//# sourceMappingURL=datepicker.module.ngfactory.js.map

@@ -1,0 +1,126 @@
+export declare module nls {
+    const _nls: {
+        'custom': {};
+        'en': {
+            monday: boolean;
+            weekdays: string[];
+            months: string[];
+        };
+        'en-US': {
+            monday: boolean;
+            weekdays: string[];
+            months: string[];
+        };
+        'en-UK': {
+            weekdays: string[];
+            months: string[];
+        };
+        'pt': {
+            weekdays: string[];
+            months: string[];
+        };
+        'pt-BR': {
+            weekdays: string[];
+            months: string[];
+        };
+        'es': {
+            monday: boolean;
+            weekdays: string[];
+            months: string[];
+        };
+        'es-ES': {
+            monday: boolean;
+            weekdays: string[];
+            months: string[];
+        };
+        'gl': {
+            monday: boolean;
+            weekdays: string[];
+            months: string[];
+        };
+        'gl-ES': {
+            monday: boolean;
+            weekdays: string[];
+            months: string[];
+        };
+        'he': {
+            weekdays: string[];
+            months: string[];
+        };
+        'he-IL': {
+            weekdays: string[];
+            months: string[];
+        };
+        'ru': {
+            weekdays: string[];
+            months: string[];
+        };
+        'ru-RU': {
+            weekdays: string[];
+            months: string[];
+        };
+        'de': {
+            monday: boolean;
+            weekdays: string[];
+            months: string[];
+        };
+        'de-DE': {
+            monday: boolean;
+            weekdays: string[];
+            months: string[];
+        };
+        'fi': {
+            weekdays: string[];
+            months: string[];
+        };
+        'fr': {
+            monday: boolean;
+            weekdays: string[];
+            months: string[];
+        };
+        'fr-FR': {
+            monday: boolean;
+            weekdays: string[];
+            months: string[];
+        };
+        'it': {
+            monday: boolean;
+            weekdays: string[];
+            months: string[];
+        };
+        'it-IT': {
+            monday: boolean;
+            weekdays: string[];
+            months: string[];
+        };
+        'zh': {
+            weekdays: string[];
+            months: string[];
+        };
+        'zh-CN': {
+            weekdays: string[];
+            months: string[];
+        };
+        'zh-TW': {
+            weekdays: string[];
+            months: string[];
+        };
+        'ja': {
+            weekdays: string[];
+            months: string[];
+        };
+        'ja-JP': {
+            weekdays: string[];
+            months: string[];
+        };
+    };
+    function getWeekdays(locale: languages): string[];
+    function getMonths(locale: languages): string[];
+    function getNls(locale: languages): {
+        weekdays: string[];
+        months: string[];
+        monday: boolean;
+    };
+    function checkExists(locale: string): boolean;
+}
+export declare type languages = string | 'en' | 'en-US' | 'en-UK' | 'pt' | 'pt-BR' | 'es' | 'es-ES' | 'gl' | 'gl-ES' | 'he' | 'he-IL' | 'ru' | 'ru-RU' | 'de' | 'de-DE' | 'fi' | 'fr' | 'fr-FR' | 'it' | 'it-IT' | 'zh' | 'zh-TW' | 'zh-CN' | 'ja' | 'ja-JP' | 'custom';

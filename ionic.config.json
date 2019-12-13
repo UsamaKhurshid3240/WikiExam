@@ -1,0 +1,7 @@
+{
+  "name": "WikiExam",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

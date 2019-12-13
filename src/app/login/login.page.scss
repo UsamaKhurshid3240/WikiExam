@@ -1,0 +1,204 @@
+ion-item{
+   
+    background-color: white;
+  }
+  
+  ion-button{
+      --background: #062f77;
+  }
+  
+  
+  .loginbtn{
+      color: #0091d2;
+      background: white;
+      height: 43px !important;
+      border: 2px solid #0091d2;
+      border-radius: 30px;
+      width: 100%;
+     
+      height: 26px;
+  }
+  .loginbtn:hover{
+     background-color: #0091d2;
+     color:white;
+  
+  }
+  
+  .fb-btn{
+      width: 30px;
+      height: 30px;
+      box-shadow: 2px 5px 18px 2px #888888;
+      border-radius: 50px;
+     background-image: url("../../assets/facebook.png");
+  margin-left: 65px;
+  //margin-top: 23px;
+     background-repeat: no-repeat;
+     background-size: cover;
+  }
+  
+  .gg-btn{
+      width: 30px;
+      height: 30px;
+      box-shadow: 2px 5px 18px 2px #888888;
+      border-radius: 50px;
+     background-image: url("../../assets/search.png");
+  margin-left: 10px;
+     background-repeat: no-repeat;
+     background-size: cover;
+  }
+  
+  
+  .gt-btn{
+      width: 30px;
+      height: 30px;
+      box-shadow: 2px 5px 18px 2px #888888;
+      border-radius: 50px;
+     background-image: url("../../assets/github.png");
+  margin-left: 10px;
+     background-repeat: no-repeat;
+     background-size: cover;
+  }
+  
+  
+  .crd-content{
+     margin-top: 130px;
+      
+     
+  }
+  
+  .txt{
+     margin-top: -80px;
+     margin-left: 80px;
+  }
+  
+  
+  // google font subsetting, see Heydon Pickering's: http://www.sitepoint.com/joy-of-subsets-web-fonts/
+  @import url('//fonts.googleapis.com/css?family=Pacifico&text=Pure');
+  @import url('//fonts.googleapis.com/css?family=Roboto:700&text=css');
+  @import url('//fonts.googleapis.com/css?family=Kaushan+Script&text=!');
+  
+  body { 
+    min-height: 450px;
+    height: 100vh;
+    margin: 0;
+    background: radial-gradient(circle, darken(dodgerblue, 10%), #1f4f96, #1b2949, #000);
+  }
+  
+  .stage {
+    height: 300px;
+    width: 500px;
+    margin: auto;
+    position: absolute;
+    top: -120px; right: 450px; bottom: 0; left: 0;
+    perspective: 9999px;
+    transform-style: preserve-3d;
+  
+  }
+  
+  .layer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    animation: ಠ_ಠ 5s infinite alternate ease-in-out -7.5s;
+    animation-fill-mode: forwards;
+    transform: rotateY(40deg) rotateX(33deg) translateZ(0);
+  }
+  
+  .layer:after {
+    font: 30px/0.65 'Pacifico', 'Kaushan Script', Futura, 'Roboto', 'Trebuchet MS', Helvetica, sans-serif;
+    content: 'Wiki\A    Exam!';
+    white-space: pre;
+   
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 130px; 
+    color: darken(#fff, 4%);
+    letter-spacing: -2px;
+    text-shadow: 4px 0 10px hsla(0, 0%, 0%, .13);
+  }
+  
+  $i: 1;
+  $NUM_LAYERS: 20;
+  @for $i from 1 through $NUM_LAYERS {
+    .layer:nth-child(#{$i}):after{
+      transform: translateZ(($i - 1) * -1.5px);
+    }
+  }
+  
+  .layer:nth-child(n+#{round($NUM_LAYERS/2)}):after {
+    -webkit-text-stroke: 3px hsla(0, 0%, 0%, .25);
+  }
+  
+  .layer:nth-child(n+#{round($NUM_LAYERS/2 + 1)}):after {
+    -webkit-text-stroke: 15px dodgerblue;
+    text-shadow: 6px 0 6px darken(dodgerblue,35%),
+                 5px 5px 5px darken(dodgerblue,40%),
+                 0 6px 6px darken(dodgerblue,35%);
+  }
+  
+  .layer:nth-child(n+#{round($NUM_LAYERS/2 + 2)}):after {
+    -webkit-text-stroke: 15px darken(dodgerblue, 10%);
+  }
+  
+  .layer:last-child:after {
+    -webkit-text-stroke: 17px hsla(0, 0%, 0%, .1);
+  }
+  
+  .layer:first-child:after{
+    color: #fff;
+    text-shadow: none;
+  }
+  
+  @keyframes ಠ_ಠ {
+    100% { transform: rotateY(-40deg) rotateX(-43deg); }
+  }
+  
+  .hr-text {
+     line-height: 1em;
+     position: relative;
+     outline: 0;
+     font-weight: 900;
+     border: 0;
+     margin-left: -161px;
+      font-size: 29px;
+     color: #0091d2 ;
+     text-align: center;
+     height: 1.5em;
+     opacity: .5;
+     &:before {
+       content: '';
+       // use the linear-gradient for the fading effect
+       // use a solid background color for a solid bar
+       background: linear-gradient(to right, transparent, #818078, transparent);
+       position: absolute;
+       left: 0;
+       top: 50%;
+       width: 100%;
+       height: 1px;
+     }
+     &:after {
+       content: attr(data-content);
+       position: relative;
+       display: inline-block;
+       color: black;
+   
+       padding: 0 .5em;
+       line-height: 1.5em;
+       // this is really the only tricky part, you need to specify the background color of the container element...
+       color: #0091d2;
+       background-color: #fcfcfa;
+     }}
+
+     ion-item{
+         width: 250px ;
+         background-color: #ff7400;
+     }
+
+     .form{
+        background-color: #ff74;
+     }
+
+
+     

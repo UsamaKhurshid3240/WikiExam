@@ -1,0 +1,134 @@
+<!-- <ion-header>
+  <ion-toolbar>
+    <ion-title>
+     
+    </ion-title>
+
+  </ion-toolbar>
+
+  <ion-fab horizontal="end" class="back-btn" vertical="top" slot="fixed" edge>
+
+    <ion-icon ios="ios-backspace" md="md-backspace" (click)="back()"></ion-icon>
+
+
+  </ion-fab>
+
+</ion-header> -->
+
+
+<ion-content>
+
+  <ion-grid>
+
+    <ion-row class="background">
+
+      <ion-col size="4" style="margin-left: 23px;"></ion-col>
+      <ion-col align-self-center size="sm-8 md-4 lg-6">
+
+
+        <ion-card-content style="margin-top: 22px;">
+
+          <ion-card class="form">
+
+
+            <ion-card-content class="crd-content">
+
+
+
+              <form>
+                <ion-row>
+                  <ion-col size="12" class="txt">
+                    <div class="stage">
+                      <div class="layer"></div>
+                      <div class="layer"></div>
+                      <div class="layer"></div>
+                      <div class="layer"></div>
+                      <div class="layer"></div>
+                      <div class="layer"></div>
+                      <div class="layer"></div>
+                      <div class="layer"></div>
+                      <div class="layer"></div>
+                      <div class="layer"></div>
+                      <div class="layer"></div>
+                      <div class="layer"></div>
+                      <div class="layer"></div>
+                      <div class="layer"></div>
+                      <div class="layer"></div>
+                      <div class="layer"></div>
+                      <div class="layer"></div>
+                      <div class="layer"></div>
+                      <div class="layer"></div>
+                      <div class="layer"></div>
+                    </div>
+                    <hr class="hr-text" data-content="SIGNUP">
+
+                  </ion-col>
+
+                </ion-row>
+           
+                  <ion-item>
+                    <ion-label color="primary" position="floating">Name</ion-label>
+                    <ion-input name="name" [(ngModel)]="name" [ngModelOptions]="{standalone: true}" required>
+                    </ion-input>
+                  </ion-item>
+
+                  <ion-item>
+                    <ion-label color="primary" position="floating">Email</ion-label>
+                    <ion-input name="email" type="email" [(ngModel)]="email" [ngModelOptions]="{standalone: true}" required>
+                    </ion-input>
+                  </ion-item>
+
+               
+               
+                  <ion-item>
+                    <ion-label color="primary" position="floating">Password</ion-label>
+                    <ion-input name="password" type="password" [(ngModel)]="password" [ngModelOptions]="{standalone: true}" required>
+                    </ion-input>
+                  </ion-item>
+
+                  <ion-item>
+                    <ion-label color="primary" position="floating">ConfirmPassword</ion-label>
+                    <ion-input name="confirmpassword"  type="password" [(ngModel)]="confirmpassword" [ngModelOptions]="{standalone: true}" required>
+                    </ion-input>
+                  </ion-item>
+                
+                
+                  
+                  
+
+                <ion-row>
+                  <button ion-button class="loginbtn" (click)="signIn()">Login</button>
+                </ion-row>
+               
+               
+                <ion-row>
+                 
+                  <div id="recaptcha-container" style="height: 200px;width: 300px;"></div>
+               
+                </ion-row>
+
+               
+
+
+
+
+
+
+              </form>
+            </ion-card-content>
+
+
+
+          </ion-card>
+
+
+
+        </ion-card-content>
+
+      </ion-col>
+      <ion-col size="4 "></ion-col>
+    </ion-row>
+  </ion-grid>
+
+
+</ion-content>
