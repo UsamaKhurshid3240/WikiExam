@@ -41,3 +41,5 @@ Edit Profile
 Take Quiz/Exam
 
 See Result
+
+### Teacher Panel
