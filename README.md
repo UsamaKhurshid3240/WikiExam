@@ -129,6 +129,9 @@ See Student Record
 <img src="src\assets\ScreenShots\res1.PNG">
 
 
+<video width="400" controls>
+  <source src="src\assets\ScreenShots\Videos\splashscreen.MOV" type="video/mp4">
+</video>
 
 
 
