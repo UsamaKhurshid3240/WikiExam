@@ -62,7 +62,8 @@ Profile Page
 
 Edit Profile
 
-Create Quiz/Exam
+### Create Quiz/Exam
+<img src="src\assets\ScreenShots\add1.PNG">
 
 Modify Quiz/Exam
 
@@ -85,8 +86,7 @@ See Student Record
 
 
 
-### 
-<img src="src\assets\ScreenShots\add1.PNG">
+
 
 ### 
 <img src="src\assets\ScreenShots\addquiz.PNG">
