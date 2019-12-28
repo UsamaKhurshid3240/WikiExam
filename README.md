@@ -15,4 +15,6 @@ Signup
 
 Profile Page
 
+Edit Profile
+
 
