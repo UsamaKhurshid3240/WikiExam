@@ -34,3 +34,5 @@ Search Any Teacher
 ### Student Panel
 
 Profile Page
+
+Edit Profile
