@@ -44,4 +44,7 @@ Take Quiz/Exam
 See Result
 
 ### Teacher Panel
+
 Login
+
+Signup
