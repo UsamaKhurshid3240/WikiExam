@@ -30,6 +30,7 @@ Search Any Student
 Search Any Teacher
 
 ### Student Panel
+Login
 
 Profile Page
 
