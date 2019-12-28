@@ -56,3 +56,5 @@ Edit Profile
 Create Quiz/Exam
 
 Modify Quiz/Exam
+
+See All Students
