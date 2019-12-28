@@ -18,7 +18,8 @@ Profile Page
 
 Edit Profile
 
-See All Students
+### Student List
+<img src="src\assets\ScreenShots\studentlist.PNG">
 
 See All Teachers
 
@@ -109,8 +110,7 @@ See Student Record
 ### 
 <img src="src\assets\ScreenShots\tp2.PNG">
 
-### 
-<img src="src\assets\ScreenShots\studentlist.PNG">
+
 
 ### 
 <img src="src\assets\ScreenShots\teacherlist.PNG">
