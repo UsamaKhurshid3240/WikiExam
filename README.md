@@ -24,3 +24,5 @@ See All Teachers
 See All Result
 
 Delete Any Student
+
+Delete Any Teacher
