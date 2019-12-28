@@ -52,6 +52,8 @@ See Result
 
 ### Teacher Panel
 
+<img src="src\assets\ScreenShots\tm.PNG">
+
 Login
 
 Signup
@@ -82,8 +84,6 @@ See Student Record
 
 
 
-### 
-<img src="src\assets\ScreenShots\tm.PNG">
 
 ### 
 <img src="src\assets\ScreenShots\add1.PNG">
