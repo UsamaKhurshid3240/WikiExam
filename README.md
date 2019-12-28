@@ -52,3 +52,5 @@ Signup
 Profile Page
 
 Edit Profile
+
+Create Quiz/Exam
