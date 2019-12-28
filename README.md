@@ -59,6 +59,8 @@ Take Quiz/Exam
 
 ### Result
 <img src="src\assets\ScreenShots\res.PNG">
+### 
+<img src="src\assets\ScreenShots\res1.PNG">
 
 ### Teacher Panel
 
@@ -135,8 +137,7 @@ See Student Record
 
 
 
-### 
-<img src="src\assets\ScreenShots\res1.PNG">
+
 
 <video width="400" controls>
   <source src="src\assets\ScreenShots\Videos\splashscreen.MOV" type="video/mp4">
