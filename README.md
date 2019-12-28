@@ -22,3 +22,5 @@ See All Students
 See All Teachers
 
 See All Result
+
+Delete Any Student
