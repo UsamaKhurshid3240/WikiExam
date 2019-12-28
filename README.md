@@ -23,13 +23,16 @@ Edit Profile
 
 ### Teachers List
 <img src="src\assets\ScreenShots\teacherlist.PNG">
-See All Teachers
+
 
 See All Result
 
-Delete Any Student
+### Delete Any Student
+<img src="src\assets\ScreenShots\studentlist.PNG">
 
-Delete Any Teacher
+### Delete Any Teacher
+<img src="src\assets\ScreenShots\teacherlist.PNG">
+
 
 Search Any Student
 
