@@ -59,4 +59,4 @@ Modify Quiz/Exam
 
 See All Students
 
-See Student Records
+See Student Record
