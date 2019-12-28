@@ -63,6 +63,9 @@ Signup
 ### Profile Page
 <img src="src\assets\ScreenShots\tp.PNG">
 
+### 
+<img src="src\assets\ScreenShots\tp1.PNG">
+
 
 Edit Profile
 
@@ -102,8 +105,6 @@ See Student Record
 
 
 
-### 
-<img src="src\assets\ScreenShots\tp1.PNG">
 
 ### 
 <img src="src\assets\ScreenShots\tp2.PNG">
