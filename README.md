@@ -32,3 +32,5 @@ Search Any Student
 Search Any Teacher
 
 ### Student Panel
+
+Profile Page
