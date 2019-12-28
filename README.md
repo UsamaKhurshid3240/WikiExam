@@ -60,7 +60,9 @@ Login
 
 Signup
 
-Profile Page
+### Profile Page
+<img src="src\assets\ScreenShots\tp.PNG">
+
 
 Edit Profile
 
@@ -98,8 +100,7 @@ See Student Record
 
 
 
-### 
-<img src="src\assets\ScreenShots\tp.PNG">
+
 
 ### 
 <img src="src\assets\ScreenShots\tp1.PNG">
