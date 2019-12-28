@@ -36,3 +36,5 @@ Search Any Teacher
 Profile Page
 
 Edit Profile
+
+Take Quiz/Exam
