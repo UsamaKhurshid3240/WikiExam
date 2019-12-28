@@ -28,3 +28,5 @@ Delete Any Student
 Delete Any Teacher
 
 Search Any Student
+
+Search Any Teacher
