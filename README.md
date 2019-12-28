@@ -19,3 +19,4 @@ Edit Profile
 
 See All Students
 
+See All Teachers
