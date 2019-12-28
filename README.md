@@ -42,11 +42,11 @@ Search Any Teacher
 ### Signup
 <img src="src\assets\ScreenShots\Signup.PNG">
 
-Profile Page
+###  Profile Page
+<img src="src\assets\ScreenShots\stprofile.PNG">
 
 ### Edit Profile
 <img src="src\assets\ScreenShots\onedit.PNG">
-
 
 Take Quiz/Exam
 
@@ -96,8 +96,7 @@ See Student Record
 
 
 
-### 
-<img src="src\assets\ScreenShots\stprofile.PNG">
+
 
 ### 
 <img src="src\assets\ScreenShots\tp.PNG">
