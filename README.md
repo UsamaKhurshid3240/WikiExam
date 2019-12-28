@@ -32,6 +32,8 @@ Search Any Teacher
 ### Student Panel
 Login
 
+Signup
+
 Profile Page
 
 Edit Profile
