@@ -50,3 +50,5 @@ Login
 Signup
 
 Profile Page
+
+Edit Profile
