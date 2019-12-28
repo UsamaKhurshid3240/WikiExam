@@ -35,7 +35,8 @@ Search Any Teacher
 ### Login
 <img src="src\assets\ScreenShots\login.PNG">
 
-Signup
+### Signup
+<img src="src\assets\ScreenShots\Signup.PNG">
 
 Profile Page
 
@@ -65,8 +66,7 @@ See Student Record
 
 
 
-### 
-<img src="src\assets\ScreenShots\Signup.PNG">
+
 
 ### 
 <img src="src\assets\ScreenShots\fb.PNG">
