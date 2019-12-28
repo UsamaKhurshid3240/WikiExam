@@ -20,3 +20,5 @@ Edit Profile
 See All Students
 
 See All Teachers
+
+See All Result
