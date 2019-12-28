@@ -123,7 +123,7 @@ export class SignupPage implements OnInit {
 
     this.dbservice.email();
     var appVerifier = new firebase.auth.RecaptchaVerifier('recaptcha-container');
-    const phoneNumberString = "+923315214148";
+    const phoneNumberString = "************";
     //Signin with phonenumbers requires BOTH the phone number and a verified captcha
     firebase.auth().signInWithPhoneNumber(phoneNumberString, appVerifier)
       .then(async confirmationResult => {
