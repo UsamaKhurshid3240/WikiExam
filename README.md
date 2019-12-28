@@ -34,6 +34,8 @@ Search Any Teacher
 
 ### Student Panel
 
+<img src="src\assets\ScreenShots\stm.PNG">
+
 ### Login
 <img src="src\assets\ScreenShots\login.PNG">
 
@@ -78,8 +80,7 @@ See Student Record
 
 
 
-### 
-<img src="src\assets\ScreenShots\stm.PNG">
+
 
 ### 
 <img src="src\assets\ScreenShots\tm.PNG">
