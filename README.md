@@ -9,6 +9,8 @@ Login
 Signup
 
 ### Admin Panel
+ 
+<img src="src\assets\ScreenShots\adm.PNG">
 
 Login
 
@@ -74,8 +76,7 @@ See Student Record
 ### 
 <img src="src\assets\ScreenShots\gg.PNG">
 
-### 
-<img src="src\assets\ScreenShots\adm.PNG">
+
 
 ### 
 <img src="src\assets\ScreenShots\stm.PNG">
