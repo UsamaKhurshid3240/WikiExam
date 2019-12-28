@@ -44,7 +44,9 @@ Search Any Teacher
 
 Profile Page
 
-Edit Profile
+### Edit Profile
+<img src="src\assets\ScreenShots\onedit.PNG">
+
 
 Take Quiz/Exam
 
@@ -93,8 +95,6 @@ See Student Record
 
 
 
-### 
-<img src="src\assets\ScreenShots\onedit.PNG">
 
 ### 
 <img src="src\assets\ScreenShots\stprofile.PNG">
