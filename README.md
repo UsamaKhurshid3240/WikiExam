@@ -58,3 +58,5 @@ Create Quiz/Exam
 Modify Quiz/Exam
 
 See All Students
+
+See Student Records
