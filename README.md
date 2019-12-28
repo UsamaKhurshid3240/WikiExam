@@ -5,5 +5,7 @@ Splash Screen
 
 Login
 
+Signup
+
 
 
