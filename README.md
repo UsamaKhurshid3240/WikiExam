@@ -32,7 +32,8 @@ Search Any Teacher
 
 ### Student Panel
 
-Login
+### Login
+<img src="src\assets\ScreenShots\login.PNG">
 
 Signup
 
@@ -62,8 +63,7 @@ See All Students
 
 See Student Record
 
-### 
-<img src="src\assets\ScreenShots\login.PNG">
+
 
 ### 
 <img src="src\assets\ScreenShots\Signup.PNG">
