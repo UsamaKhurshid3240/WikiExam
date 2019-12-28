@@ -30,6 +30,7 @@ Search Any Student
 Search Any Teacher
 
 ### Student Panel
+
 Login
 
 Signup
@@ -43,3 +44,4 @@ Take Quiz/Exam
 See Result
 
 ### Teacher Panel
+Login
