@@ -38,3 +38,5 @@ Profile Page
 Edit Profile
 
 Take Quiz/Exam
+
+See Result
