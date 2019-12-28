@@ -56,7 +56,9 @@ Search Any Teacher
 
 Take Quiz/Exam
 
-See Result
+
+### Result
+<img src="src\assets\ScreenShots\res.PNG">
 
 ### Teacher Panel
 
@@ -131,8 +133,7 @@ See Student Record
 ### 
 <img src="src\assets\ScreenShots\tkq.PNG">
 
-### 
-<img src="src\assets\ScreenShots\res.PNG">
+
 
 ### 
 <img src="src\assets\ScreenShots\res1.PNG">
