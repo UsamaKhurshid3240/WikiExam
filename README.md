@@ -17,4 +17,5 @@ Profile Page
 
 Edit Profile
 
+See All Students
 
