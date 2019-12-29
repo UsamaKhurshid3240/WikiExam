@@ -97,10 +97,6 @@ Social Login (Facebook)
 
 <img src="src\assets\ScreenShots\tm.PNG">
 
-
-
-
-
 ### Profile Page
 <img src="src\assets\ScreenShots\tp.PNG">
 
