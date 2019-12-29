@@ -65,7 +65,7 @@ export class AppComponent {
       url: '/login',
       icon: 'log-out'
     },
- {
+    {
       title: 'Results',
       url: '/login',
       icon: 'list'
@@ -98,7 +98,7 @@ export class AppComponent {
       icon: 'log-out'
     },
 
-   
+
 
 
   ];
@@ -116,10 +116,10 @@ export class AppComponent {
 
   }
 
-ngOnInit(){
-this.appPages = this.adminPages;
+  ngOnInit() {
+    this.appPages = this.adminPages;
 
-}
+  }
   async ionViewWillEnter() {
     console.log('lifecyvle')
     this.tk = await
@@ -147,7 +147,7 @@ this.appPages = this.adminPages;
       this.statusBar.styleDefault();
 
 
-      timer(3000).subscribe(() => this.showSplash = false) // <-- hide animation after 3s
+      //timer(3000).subscribe(() => this.showSplash = false) // <-- hide animation after 3s
     });
   }
 }
