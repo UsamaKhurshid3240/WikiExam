@@ -99,7 +99,7 @@ Social Login (Facebook)
 
 
 
-Signup
+
 
 ### Profile Page
 <img src="src\assets\ScreenShots\tp.PNG">
