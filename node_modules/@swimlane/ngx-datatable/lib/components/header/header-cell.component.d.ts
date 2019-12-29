@@ -1,0 +1,44 @@
+import { EventEmitter, ChangeDetectorRef } from '@angular/core';
+import { SortType } from '../../types/sort.type';
+import { SelectionType } from '../../types/selection.type';
+import { TableColumn } from '../../types/table-column.type';
+import { SortDirection } from '../../types/sort-direction.type';
+export declare class DataTableHeaderCellComponent {
+    private cd;
+    sortType: SortType;
+    sortAscendingIcon: string;
+    sortDescendingIcon: string;
+    isTarget: boolean;
+    targetMarkerTemplate: any;
+    targetMarkerContext: any;
+    _allRowsSelected: boolean;
+    allRowsSelected: any;
+    selectionType: SelectionType;
+    column: TableColumn;
+    headerHeight: number;
+    sorts: any[];
+    sort: EventEmitter<any>;
+    select: EventEmitter<any>;
+    columnContextmenu: EventEmitter<{
+        event: MouseEvent;
+        column: any;
+    }>;
+    readonly columnCssClasses: any;
+    readonly name: string;
+    readonly minWidth: number;
+    readonly maxWidth: number;
+    readonly width: number;
+    readonly isCheckboxable: boolean;
+    sortFn: any;
+    sortClass: string;
+    sortDir: SortDirection;
+    selectFn: any;
+    cellContext: any;
+    private _column;
+    private _sorts;
+    constructor(cd: ChangeDetectorRef);
+    onContextmenu($event: MouseEvent): void;
+    calcSortDir(sorts: any[]): any;
+    onSort(): void;
+    calcSortClass(sortDir: SortDirection): string;
+}
