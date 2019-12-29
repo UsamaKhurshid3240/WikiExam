@@ -147,7 +147,7 @@ export class AppComponent {
       this.statusBar.styleDefault();
 
 
-      //timer(3000).subscribe(() => this.showSplash = false) // <-- hide animation after 3s
+      timer(3000).subscribe(() => this.showSplash = false) // <-- hide animation after 3s
     });
   }
 }
