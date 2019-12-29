@@ -102,6 +102,8 @@ Signup
 ### 
 <img src="src\assets\ScreenShots\tp1.PNG">
 
+### 
+<img src="src\assets\ScreenShots\tp2.PNG">
 
 Edit Profile
 
@@ -141,8 +143,6 @@ UsamaKhurshid3240/Node.js-Firebase-MongoDb
 
 
 
-### 
-<img src="src\assets\ScreenShots\tp2.PNG">
 
 
 
