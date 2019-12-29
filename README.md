@@ -9,6 +9,9 @@ Online Exam System App(WikiExam)
 
 ### Login
 
+### 
+<img src="src\assets\ScreenShots\login.PNG">
+
 Social Login (Google)
 
 ### 
@@ -71,8 +74,7 @@ See All Result
 
 <img src="src\assets\ScreenShots\stm.PNG">
 
-### Login
-<img src="src\assets\ScreenShots\login.PNG">
+
 
 ### Signup
 <img src="src\assets\ScreenShots\Signup.PNG">
