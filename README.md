@@ -2,7 +2,7 @@
 Online Exam System App(WikiExam)
 
 
-Splash Screen
+### Splash Screen
 
 ### Login
 
