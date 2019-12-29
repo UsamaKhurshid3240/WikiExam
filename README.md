@@ -19,7 +19,7 @@ Social Login (Facebook)
 ### 
 <img src="src\assets\ScreenShots\fb.PNG">
 
-Social Login (Github)
+### Social Login (Github)
 
 Signup
 
