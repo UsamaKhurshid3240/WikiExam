@@ -125,8 +125,6 @@ See Student Record
 ### 
 <img src="src\assets\ScreenShots\role.PNG">
 
-
-
 ### 
 <img src="src\assets\ScreenShots\role1.PNG">
 
