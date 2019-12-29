@@ -123,18 +123,6 @@ See Student Record
 server link
 UsamaKhurshid3240/Node.js-Firebase-MongoDb
 
-
-
-
-
-
-
-
-
-
-
-
-
 ### 
 <img src="src\assets\ScreenShots\role.PNG">
 
