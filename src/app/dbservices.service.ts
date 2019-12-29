@@ -202,7 +202,7 @@ export class DbservicesService {
 
         this.storage.set("Token", data.token).then(result => {
           console.log('Data is saved');
-          this.f();
+         this.f();
         }).catch(e => {
           console.log("error: " + e);
         })

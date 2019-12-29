@@ -64,6 +64,11 @@ export class AppComponent {
       title: 'SignOut',
       url: '/login',
       icon: 'log-out'
+    },
+ {
+      title: 'Results',
+      url: '/login',
+      icon: 'list'
     }
 
 
@@ -91,7 +96,9 @@ export class AppComponent {
       title: 'SignOut',
       url: '/login',
       icon: 'log-out'
-    }
+    },
+
+   
 
 
   ];
@@ -109,6 +116,10 @@ export class AppComponent {
 
   }
 
+ngOnInit(){
+this.appPages = this.adminPages;
+
+}
   async ionViewWillEnter() {
     console.log('lifecyvle')
     this.tk = await
