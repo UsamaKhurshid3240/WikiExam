@@ -145,20 +145,6 @@ See Student Record
 ### 
 <img src="src\assets\ScreenShots\dobn.PNG">
 
-### 
-<img src="src\assets\ScreenShots\netlify.PNG">
-
-
-
-
-
-
-
-
-
-
-
-
 <video width="400" controls>
   <source src="src\assets\ScreenShots\Videos\splashscreen.MOV" type="video/mp4">
   
