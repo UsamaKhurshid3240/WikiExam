@@ -97,7 +97,7 @@ Social Login (Facebook)
 
 <img src="src\assets\ScreenShots\tm.PNG">
 
-Login
+
 
 Signup
 
