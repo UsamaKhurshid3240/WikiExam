@@ -10,6 +10,8 @@ Social Login (Google)
 
 Social Login (Facebook)
 
+Social Login (Github)
+
 Signup
 
 ### Admin Panel
