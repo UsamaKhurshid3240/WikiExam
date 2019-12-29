@@ -36,7 +36,7 @@ Social Login (Facebook)
 
 
 
-Edit Profile
+
 
 ### Students List
 <img src="src\assets\ScreenShots\studentlist.PNG">
