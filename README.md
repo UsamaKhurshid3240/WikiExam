@@ -54,7 +54,9 @@ Search Any Teacher
 ### Edit Profile
 <img src="src\assets\ScreenShots\onedit.PNG">
 
-Take Quiz/Exam
+
+### Take Quiz/Exam
+<img src="src\assets\ScreenShots\tk1.PNG">
 
 
 ### Result
@@ -124,8 +126,6 @@ UsamaKhurshid3240/Node.js-Firebase-MongoDb
 
 
 
-### 
-<img src="src\assets\ScreenShots\tk1.PNG">
 
 ### 
 <img src="src\assets\ScreenShots\tk2.PNG">
