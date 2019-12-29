@@ -3,6 +3,7 @@ Online Exam System App(WikiExam)
 
 
 ### Splash Screen
+<img src="src\assets\ScreenShots\splash.PNG">
 
 ### Login
 
