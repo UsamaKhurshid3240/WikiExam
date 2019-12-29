@@ -44,7 +44,6 @@ Social Login (Facebook)
 ###
 <img src="src\assets\ScreenShots\mb1.PNG">
 
-See All Result
 
 ### Delete Any Student
 <img src="src\assets\ScreenShots\studentlist.PNG">
