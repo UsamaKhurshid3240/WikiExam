@@ -122,9 +122,6 @@ Edit Profile
 ### 
 <img src="src\assets\ScreenShots\pass.PNG">
 
-
-
-
 ### 
 <img src="src\assets\ScreenShots\gender.PNG">
 
