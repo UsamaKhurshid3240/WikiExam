@@ -125,11 +125,6 @@ Edit Profile
 ### 
 <img src="src\assets\ScreenShots\gender.PNG">
 
-
-
-
-
-
 ### 
 <img src="src\assets\ScreenShots\dobn.PNG">
 
