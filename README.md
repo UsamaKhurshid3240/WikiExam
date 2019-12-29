@@ -116,7 +116,6 @@ Edit Profile
 
 Modify Quiz/Exam
 
-See All Students
 
 
 
