@@ -128,8 +128,6 @@ See Student Record
 ### 
 <img src="src\assets\ScreenShots\role1.PNG">
 
-
-
 ### 
 <img src="src\assets\ScreenShots\pass.PNG">
 
