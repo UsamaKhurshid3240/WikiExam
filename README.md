@@ -64,6 +64,8 @@ Search Any Teacher
 ### 
 <img src="src\assets\ScreenShots\tk3.PNG">
 
+### 
+<img src="src\assets\ScreenShots\tkq.PNG">
 
 ### Result
 <img src="src\assets\ScreenShots\res.PNG">
@@ -136,8 +138,7 @@ UsamaKhurshid3240/Node.js-Firebase-MongoDb
 
 
 
-### 
-<img src="src\assets\ScreenShots\tkq.PNG">
+
 
 
 
