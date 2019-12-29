@@ -3,11 +3,11 @@ Online Exam System App(WikiExam)
 
 ### Run Commands
 
-npm install
+1.npm install
 
-ionic serve
+2.ionic serve
 
-Open localhost:3000 in browser
+3.Open localhost:3000 in browser
 
 ### Logo
 <img src="src\assets\ScreenShots\logo.PNG">
