@@ -65,49 +65,88 @@
                   </ion-col>
 
                 </ion-row>
-           
-                  <ion-item>
-                    <ion-label color="primary" position="floating">Name</ion-label>
-                    <ion-input name="name" [(ngModel)]="name" [ngModelOptions]="{standalone: true}" required>
-                    </ion-input>
-                  </ion-item>
 
-                  <ion-item>
-                    <ion-label color="primary" position="floating">Email</ion-label>
-                    <ion-input name="email" type="email" [(ngModel)]="email" [ngModelOptions]="{standalone: true}" required>
-                    </ion-input>
-                  </ion-item>
+                <ion-item>
+                  <ion-label color="primary" position="floating">Name</ion-label>
+                  <ion-input name="name" [(ngModel)]="name" [ngModelOptions]="{standalone: true}" required>
+                  </ion-input>
+                </ion-item>
 
-               
-               
-                  <ion-item>
-                    <ion-label color="primary" position="floating">Password</ion-label>
-                    <ion-input name="password" type="password" [(ngModel)]="password" [ngModelOptions]="{standalone: true}" required>
-                    </ion-input>
-                  </ion-item>
+                <ion-item>
+                  <ion-label color="primary" position="floating">Email</ion-label>
+                  <ion-input name="email" type="email" [(ngModel)]="email" [ngModelOptions]="{standalone: true}"
+                    required>
+                  </ion-input>
+                </ion-item>
 
-                  <ion-item>
-                    <ion-label color="primary" position="floating">ConfirmPassword</ion-label>
-                    <ion-input name="confirmpassword"  type="password" [(ngModel)]="confirmpassword" [ngModelOptions]="{standalone: true}" required>
-                    </ion-input>
-                  </ion-item>
-                
-                
-                  
-                  
+
+
+
+
+                <ion-item>
+                  <ion-label color="primary" position="floating">Password</ion-label>
+                  <ion-input name="password" type="password" [(ngModel)]="password"
+                    [ngModelOptions]="{standalone: true}" required>
+                  </ion-input>
+                </ion-item>
+
+                <ion-item>
+                  <ion-label color="primary" position="floating">ConfirmPassword</ion-label>
+                  <ion-input name="confirmpassword" type="password" [(ngModel)]="confirmpassword"
+                    [ngModelOptions]="{standalone: true}" (ionBlur)="confirmpass()" required>
+                  </ion-input>
+                </ion-item>
+
+                <ion-item>
+                  <ion-label color="primary" position="floating">Reg</ion-label>
+                  <ion-input name="reg" type="text" [(ngModel)]="reg" [ngModelOptions]="{standalone: true}"
+                    (ionBlur)="checkreg()" required>
+                  </ion-input>
+                </ion-item>
+
+                <ion-item>
+                  <ion-label color="primary" position="floating">Phone No</ion-label>
+                  <ion-input name="email" type="Phone" [(ngModel)]="mobilenumber" [ngModelOptions]="{standalone: true}"
+                    required>
+                  </ion-input>
+                </ion-item>
+
+                <ion-item>
+                  <ion-label style="color: #498ff4;">Gender</ion-label>
+                  <ion-select [(ngModel)]="gender" [ngModelOptions]="{standalone: true}" interface="popover" mode="ios">
+                    <ion-select-option value="Female">Female</ion-select-option>
+                    <ion-select-option value="Male">Male</ion-select-option>
+                  </ion-select>
+                </ion-item>
+
+
+                <ion-item>
+                  <ion-label style="color: #498ff4;">Role</ion-label>
+                  <ion-select [(ngModel)]="role" [ngModelOptions]="{standalone: true}" mode="ios">
+                    <ion-select-option value="Teacher">Teacher</ion-select-option>
+                    <ion-select-option value="Student">Student</ion-select-option>
+                  </ion-select>
+                </ion-item>
+
+
+
+                <ion-item>
+                  <ion-label style="color: #498ff4;">DOB</ion-label>
+                  <ion-datetime displayFormat="YYYY/MM/DD" [(ngModel)]="dob" [ngModelOptions]="{standalone: true}"
+                    mode="ios">
+                  </ion-datetime>
+                </ion-item>
 
                 <ion-row>
-                  <button ion-button class="loginbtn" (click)="signIn()">Login</button>
-                </ion-row>
-               
-               
-                <ion-row>
-                 
-                  <div id="recaptcha-container" style="height: 200px;width: 300px;"></div>
-               
+                  <button ion-button class="loginbtn" (click)="register()">Register</button>
                 </ion-row>
 
-               
+
+                <ion-row>
+
+                  <div id="recaptcha-container" style="height: 93px;width: 300px;"></div>
+
+                </ion-row>
 
 
 

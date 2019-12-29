@@ -1,0 +1,78 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title style="background-color: #ff7400;">Teacher List</ion-title>
+
+  </ion-toolbar>
+  <ion-fab horizontal="end" class="back-btn" vertical="top" slot="fixed" edge>
+
+    <ion-icon ios="ios-backspace" md="md-backspace" (click)="signout()"></ion-icon>
+
+
+  </ion-fab>
+</ion-header>
+<ion-content fullscreen>
+  <ion-grid>
+    <ion-row>
+      <ion-searchbar (ionInput)="filterTechnologies($event.target.value)"></ion-searchbar>
+      <ion-col *ngFor=" let st of sDisplay  ">
+
+        <ion-card>
+          <button style="background-color: transparent;" (click)="delete(st.Reg,st.Role)">
+
+            <ion-icon style="    margin-left: 256px;margin-bottom: -12px; background-color: white ;" ios="ios-trash"
+              md="md-trash"></ion-icon>
+          </button>
+          <div style="   margin-top: 13px; width: 99px;margin-left: 11px; height: 171px;">
+            <img src="../../assets/logo1.PNG" style="height: 118px;">
+          </div>
+
+
+
+
+          <div style="margin-left: 115px; margin-top: -200px;">
+            <h1>{{st.username}}<span>
+
+              </span></h1>
+
+            <h3><span><i>Email :</i></span>{{st.email}}</h3>
+            <h3><span><i>Dob :</i></span>{{st.dob}}</h3>
+            <h3><span><i>Gender :</i></span>{{st.gender}}</h3>
+            <h3><span><i>Role :</i></span>{{st.Role}}</h3>
+            <h3><span><i>Age :</i></span>{{st.Age}}</h3>
+            <h3><span><i>Mobile No:</i></span>{{st.Mobile}}</h3>
+            <h3><span><i>Reg :</i></span>{{st.Reg}}</h3>
+          </div>
+          <!-- <ion-searchbar (ionInput)="filterTechnologies($event.target.value)">
+              </ion-searchbar>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th> DOB</th>
+                    <th> Delete</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor=" let st of sDisplay  ">
+
+                    <td>{{st.username}}</td>
+                    <td> {{st.email}}</td>
+                    <td>{{st.dob}}</td>
+                    <td>
+                      <button primary large class="trsh">
+                        <ion-icon name="trash"></ion-icon>
+                      </button>
+                    </td>
+                  </tr>
+
+                </tbody>
+              </table> -->
+
+        </ion-card>
+
+
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

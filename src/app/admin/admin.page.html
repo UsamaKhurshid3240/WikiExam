@@ -1,0 +1,193 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title style="background-color: #ff7400;">Student</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content fulscreen>
+  <ion-card mode="ios">
+    <ion-grid>
+      <ion-card>
+        <ion-row>
+
+          <ion-col class="colm">
+
+            <div></div>
+
+          </ion-col>
+          <ion-col class="colm">
+
+            <div><img class="pic" src="../../assets/download (1).jpg"></div>
+
+          </ion-col>
+          <ion-col class="colm">
+
+            <div></div>
+
+          </ion-col>
+
+
+        </ion-row>
+      </ion-card>
+    </ion-grid>
+
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <ion-item>
+            <ion-input disabled="{{isUsername}}" style="border: 2px solid;" placeholder="" value="usama">
+              Username :
+            </ion-input>
+            <ion-button class="editbtn" (click)="username()">
+              <ion-icon ios="ios-create" md="md-create"></ion-icon>
+            </ion-button>
+          </ion-item>
+
+        </ion-col>
+
+
+      </ion-row>
+
+      <ion-row>
+        <ion-col>
+          <ion-item>
+            <ion-input disabled="{{isEmail}}" style="border: 2px solid;" placeholder="" value="usama@gmail.com">
+              Email :
+            </ion-input>
+            <ion-button class="editbtn" (click)="email()">
+              <ion-icon ios="ios-create" md="md-create"></ion-icon>
+            </ion-button>
+          </ion-item>
+
+        </ion-col>
+
+
+      </ion-row>
+
+      <ion-row>
+        <ion-col>
+          <ion-item>
+            <ion-input [(ngModel)]="password" disabled="{{isPassword}}" style="border: 2px solid;" placeholder=""
+              value="#####">
+              Password :
+            </ion-input>
+            <ion-button class="editbtn" (click)="pass()">
+              <ion-icon ios="ios-create" md="md-create"></ion-icon>
+            </ion-button>
+          </ion-item>
+
+        </ion-col>
+
+
+      </ion-row>
+
+      <ion-row>
+        <ion-col>
+          <ion-item>
+            <ion-input [(ngModel)]="confirmpassword" disabled="{{isPassword}}" style="border: 2px solid;" placeholder=""
+              value="####" (ionBlur)="confirmpass()">
+              Confirm Password :
+            </ion-input>
+
+          </ion-item>
+
+        </ion-col>
+
+
+      </ion-row>
+
+      <ion-row>
+        <ion-col>
+          <ion-item>
+            <ion-input disabled="{{isReg}}" style="border: 2px solid;" placeholder="" value="3240">
+              Reg No. :
+            </ion-input>
+          </ion-item>
+
+        </ion-col>
+
+
+      </ion-row>
+
+      <ion-row>
+        <ion-col>
+          <ion-item>
+            <ion-input disabled="{{isGender}}" style="border: 2px solid;" placeholder="" value="Male">
+              Gender :
+            </ion-input>
+            <ion-button class="editbtn" (click)="gender()">
+              <ion-icon ios="ios-create" md="md-create"></ion-icon>
+            </ion-button>
+          </ion-item>
+
+        </ion-col>
+
+
+      </ion-row>
+
+      <ion-row>
+        <ion-col>
+          <ion-item>
+            <ion-input disabled="{{isDob}}" style="border: 2px solid;" placeholder="yyyy-mm-dd" value="2019/3/21"
+              [(ngModel)]="dob" (ionBlur)="age()">
+              DOB :
+            </ion-input>
+            <ion-button class="editbtn" (click)="dobb()">
+              <ion-icon ios="ios-create" md="md-create"></ion-icon>
+            </ion-button>
+          </ion-item>
+
+        </ion-col>
+
+
+      </ion-row>
+
+      <ion-row>
+        <ion-col>
+          <ion-item>
+            <ion-input id="age" disabled="{{isAge}}" style="border: 2px solid;" placeholder="" value="21yr">
+              Age :
+            </ion-input>
+
+          </ion-item>
+
+        </ion-col>
+
+
+      </ion-row>
+
+      <ion-row>
+        <ion-col>
+          <ion-item>
+            <ion-input disabled="{{isRole}}" style="border: 2px solid;" placeholder="" value="Student">
+              Role:
+            </ion-input>
+
+          </ion-item>
+
+        </ion-col>
+
+
+      </ion-row>
+
+      <ion-row>
+        <ion-col>
+          <ion-item>
+            <ion-input disabled="{{isMobile}}" style="border: 2px solid;" placeholder="" value="03445672838">
+              Mobile No :
+            </ion-input>
+            <ion-button class="editbtn" (click)="mobileNo()">
+              <ion-icon ios="ios-create" md="md-create"></ion-icon>
+            </ion-button>
+          </ion-item>
+
+        </ion-col>
+
+
+      </ion-row>
+
+    </ion-grid>
+
+
+  </ion-card>
+</ion-content>

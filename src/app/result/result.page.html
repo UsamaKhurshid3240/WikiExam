@@ -1,0 +1,51 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title style="background-color: #ff7400;">Result</ion-title>
+
+  </ion-toolbar>
+  <ion-fab horizontal="end" class="back-btn" vertical="top" slot="fixed" edge>
+
+    <ion-icon ios="ios-backspace" md="md-backspace" (click)="signout()"></ion-icon>
+
+
+  </ion-fab>
+</ion-header>
+<ion-content fullscreen>
+  <ion-grid>
+    <ion-row>
+
+      <ion-col>
+
+        <ion-card color="success">
+
+          <ion-row>
+
+            <ion-col>
+
+              <div>
+                <ion-input class="nm" [(ngModel)]="user" value="name"></ion-input>
+                <ion-input class="rg" [(ngModel)]="userreg" value="reg"></ion-input>
+              </div>
+
+            </ion-col>
+
+            <div class="hrline"></div>
+
+            <ion-col>
+              <div>
+
+                <ion-input class="scr" [(ngModel)]="score" value="scre"></ion-input>
+              </div>
+
+            </ion-col>
+
+          </ion-row>
+
+
+        </ion-card>
+
+
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

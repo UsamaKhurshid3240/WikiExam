@@ -75,11 +75,19 @@
                 <ion-row>
                   <ion-item>
                     <ion-label color="primary" position="floating">Password</ion-label>
-                    <ion-input name="password" [(ngModel)]="password" [ngModelOptions]="{standalone: true}" required>
+                    <ion-input name="password" type="password" [(ngModel)]="password"
+                      [ngModelOptions]="{standalone: true}" required>
                     </ion-input>
                   </ion-item>
                 </ion-row>
-
+                <ion-item>
+                  <ion-label style="color: #498ff4;">Role</ion-label>
+                  <ion-select [(ngModel)]="role" [ngModelOptions]="{standalone: true}" mode="ios">
+                    <ion-select-option value="Teacher">Teacher</ion-select-option>
+                    <ion-select-option value="Student">Student</ion-select-option>
+                    <ion-select-option value="Admin">Admin</ion-select-option>
+                  </ion-select>
+                </ion-item>
                 <ion-row style="margin-top: 10px; margin-bottom: 10px;">
                   <ion-checkbox color="primary"></ion-checkbox>
                   <h4 style="margin-left: 10px;">Remember me</h4>

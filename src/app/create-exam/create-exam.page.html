@@ -1,0 +1,72 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Add New Book</ion-title>
+
+  </ion-toolbar>
+
+  <ion-fab horizontal="end" class="back-btn" vertical="top" slot="fixed" edge>
+
+    <ion-icon ios="ios-backspace" md="md-backspace" (click)="back()"></ion-icon>
+
+
+  </ion-fab>
+
+</ion-header>
+
+<ion-content fullscreen>
+
+
+
+  <ion-card-content>
+
+    <ion-card class="form">
+
+
+      <ion-card-content>
+        <form>
+          <ion-list>
+
+            <ion-item>
+              <ion-label color="primary" position="floating">Question</ion-label>
+              <ion-input [(ngModel)]="question" [ngModelOptions]="{standalone: true}" required></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label color="primary" position="floating">Option 1</ion-label>
+              <ion-input [(ngModel)]="optionA" [ngModelOptions]="{standalone: true}" required></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label color="primary" position="floating">Option 2</ion-label>
+              <ion-input [(ngModel)]="optionB" [ngModelOptions]="{standalone: true}" required></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label color="primary" position="floating">Option 3</ion-label>
+              <ion-input [(ngModel)]="optionC" [ngModelOptions]="{standalone: true}" required></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label color="primary" position="floating">Option 4</ion-label>
+              <ion-input [(ngModel)]="optionD" [ngModelOptions]="{standalone: true}" required></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label color="primary" position="floating">Correct Answer</ion-label>
+              <ion-input [(ngModel)]="correctAnswer" [ngModelOptions]="{standalone: true}" required></ion-input>
+            </ion-item>
+
+            <ion-item>
+              <button ion-button class="add-btn" (click)="addQuiz()">SAVE</button>
+            </ion-item>
+          </ion-list>
+
+        </form>
+      </ion-card-content>
+
+
+
+    </ion-card>
+
+
+
+  </ion-card-content>
+
+
+
+</ion-content>

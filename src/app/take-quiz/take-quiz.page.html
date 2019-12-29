@@ -1,0 +1,89 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title style="background-color: #ff7400;">Student List</ion-title>
+
+  </ion-toolbar>
+  <ion-fab horizontal="end" class="back-btn" vertical="top" slot="fixed" edge>
+
+    <ion-icon ios="ios-backspace" md="md-backspace" (click)="signout()"></ion-icon>
+
+
+  </ion-fab>
+</ion-header>
+<ion-content>
+
+  <ion-grid>
+    <ion-row>
+
+      <ion-col>
+        <ion-card *ngFor=" let qz of quiz; let i=index ">
+          <div *ngIf="quizIndex===i">
+
+            <h2><i class=" ques">Q{{[i+1]}} {{qz.question}}</i></h2>
+
+
+
+            <ion-radio-group>
+
+
+              <ion-item>
+                <div class="op">A</div>
+
+                <ion-label style="margin-left: 20px;">{{qz.option1}}</ion-label>
+                <ion-radio value="{{qz.option1}}" unchecked mode="ios"
+                  (ionSelect)="next($event.target.value,qz.question)">
+                </ion-radio>
+
+              </ion-item>
+
+              <ion-item>
+                <div class="op">B</div>
+                <ion-label style="margin-left: 20px;">{{qz.option2}}</ion-label>
+                <ion-radio value="{{qz.option2}}" unchecked mode="ios"
+                  (ionSelect)="next($event.target.value,qz.question)">
+                </ion-radio>
+              </ion-item>
+
+              <ion-item>
+                <div class="op">C</div>
+                <ion-label style="margin-left: 20px;">{{qz.option3}}</ion-label>
+                <ion-radio value="{{qz.option3}}" unchecked mode="ios"
+                  (ionSelect)="next($event.target.value,qz.question)">
+                </ion-radio>
+
+              </ion-item>
+
+              <ion-item>
+                <div class="op">D</div>
+                <ion-label style="margin-left: 20px;">{{qz.option4}}</ion-label>
+                <ion-radio value="{{qz.option4}}" unchecked mode="ios"
+                  (ionSelect)="next($event.target.value,qz.question)">
+                </ion-radio>
+
+              </ion-item>
+
+            </ion-radio-group>
+
+            <ion-row>
+              <ion-col>
+                <ion-button [disabled]="quizIndex===quiz.length - 1" (click)="nextt()"> Next </ion-button>
+              </ion-col>
+              <ion-col></ion-col>
+              <ion-col>
+
+                <ion-button disabled="{{issubmit}}" (click)="Submit()"> Submit </ion-button>
+              </ion-col>
+            </ion-row>
+          </div>
+        </ion-card>
+
+
+      </ion-col>
+
+
+    </ion-row>
+
+
+
+  </ion-grid>
+</ion-content>

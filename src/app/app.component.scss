@@ -90,7 +90,7 @@ body {
   width: 500px;
   margin: auto;
   position: absolute;
-  top: 0px; right: 30px; bottom: 0; left: 0;
+  top: 0px; right: 0px; bottom: 0; left: 0;
   perspective: 9999px;
   transform-style: preserve-3d;
 }
@@ -114,6 +114,7 @@ body {
   width: 100%;
   position: absolute;
   top: -150px; 
+
   color: darken(#fff, 4%);
   letter-spacing: -2px;
   text-shadow: 4px 0 10px hsla(0, 0%, 0%, .13);
@@ -153,4 +154,9 @@ $NUM_LAYERS: 20;
 
 @keyframes ಠ_ಠ {
   100% { transform: rotateY(-40deg) rotateX(-43deg); }
+}
+
+
+ion-item:hover{
+background-color: #ff7400;
 }
