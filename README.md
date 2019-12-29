@@ -8,6 +8,9 @@ Splash Screen
 
 Social Login (Google)
 
+### 
+<img src="src\assets\ScreenShots\gg.PNG">
+
 Social Login (Facebook)
 
 Social Login (Github)
@@ -120,8 +123,7 @@ UsamaKhurshid3240/Node.js-Firebase-MongoDb
 ### 
 <img src="src\assets\ScreenShots\fb.PNG">
 
-### 
-<img src="src\assets\ScreenShots\gg.PNG">
+
 
 
 
