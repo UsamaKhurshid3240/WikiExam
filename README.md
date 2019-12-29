@@ -1,6 +1,7 @@
 # WikiExam
 Online Exam System App(WikiExam)
 
+### Logo
 
 ### Splash Screen
 <img src="src\assets\ScreenShots\splash.PNG">
