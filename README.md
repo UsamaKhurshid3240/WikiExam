@@ -56,6 +56,11 @@ Search Any Teacher
 
 
 ### Take Quiz/Exam
+
+### 
+<img src="src\assets\ScreenShots\tkq.PNG">
+
+###
 <img src="src\assets\ScreenShots\tk1.PNG">
 
 ### 
@@ -64,8 +69,7 @@ Search Any Teacher
 ### 
 <img src="src\assets\ScreenShots\tk3.PNG">
 
-### 
-<img src="src\assets\ScreenShots\tkq.PNG">
+
 
 ### Result
 <img src="src\assets\ScreenShots\res.PNG">
