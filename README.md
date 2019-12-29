@@ -58,6 +58,8 @@ Search Any Teacher
 ### Take Quiz/Exam
 <img src="src\assets\ScreenShots\tk1.PNG">
 
+### 
+<img src="src\assets\ScreenShots\tk2.PNG">
 
 ### Result
 <img src="src\assets\ScreenShots\res.PNG">
@@ -127,8 +129,7 @@ UsamaKhurshid3240/Node.js-Firebase-MongoDb
 
 
 
-### 
-<img src="src\assets\ScreenShots\tk2.PNG">
+
 
 ### 
 <img src="src\assets\ScreenShots\tk3.PNG">
