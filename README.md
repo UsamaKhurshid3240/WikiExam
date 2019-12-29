@@ -87,8 +87,6 @@ Social Login (Facebook)
 ### 
 <img src="src\assets\ScreenShots\tk3.PNG">
 
-
-
 ### Result
 <img src="src\assets\ScreenShots\res.PNG">
 
