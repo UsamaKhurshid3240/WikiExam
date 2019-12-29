@@ -13,6 +13,9 @@ Social Login (Google)
 
 Social Login (Facebook)
 
+### 
+<img src="src\assets\ScreenShots\fb.PNG">
+
 Social Login (Github)
 
 Signup
@@ -120,8 +123,7 @@ UsamaKhurshid3240/Node.js-Firebase-MongoDb
 
 
 
-### 
-<img src="src\assets\ScreenShots\fb.PNG">
+
 
 
 
