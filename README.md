@@ -114,7 +114,7 @@ Edit Profile
 <img src="src\assets\ScreenShots\addquiz.PNG">
 
 
-Modify Quiz/Exam
+
 
 
 
