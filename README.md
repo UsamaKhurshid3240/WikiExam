@@ -52,7 +52,8 @@ See All Result
 ###
 <img src="src\assets\ScreenShots\srch2.PNG">
 
-Search Any Teacher
+### Search Any Teacher
+<img src="src\assets\ScreenShots\tsrch.PNG">
 
 
 ### Student Panel
