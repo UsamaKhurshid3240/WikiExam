@@ -4,7 +4,9 @@ Online Exam System App(WikiExam)
 
 Splash Screen
 
-Login
+### Login
+
+Social Login (Google)
 
 Signup
 
