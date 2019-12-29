@@ -25,7 +25,8 @@ Social Login (Facebook)
 ### Social Login (Github)
 <img src="src\assets\ScreenShots\gith.PNG">
 
-Signup
+### Signup
+<img src="src\assets\ScreenShots\Signup.PNG">
 
 ### Admin Panel
  
@@ -76,8 +77,7 @@ See All Result
 
 
 
-### Signup
-<img src="src\assets\ScreenShots\Signup.PNG">
+
 
 ###  Profile Page
 <img src="src\assets\ScreenShots\stprofile.PNG">
