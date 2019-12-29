@@ -8,6 +8,8 @@ Splash Screen
 
 Social Login (Google)
 
+Social Login (Facebook)
+
 Signup
 
 ### Admin Panel
