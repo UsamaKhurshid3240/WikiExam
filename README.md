@@ -32,7 +32,7 @@ Social Login (Facebook)
  
 <img src="src\assets\ScreenShots\adm.PNG">
 
-Login
+
 
 Profile Page
 
