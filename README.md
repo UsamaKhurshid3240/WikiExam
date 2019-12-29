@@ -34,7 +34,7 @@ Social Login (Facebook)
 
 
 
-Profile Page
+
 
 Edit Profile
 
