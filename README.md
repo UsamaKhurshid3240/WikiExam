@@ -1,6 +1,8 @@
 # WikiExam
 Online Exam System App(WikiExam)
 
+### Run
+
 ### Logo
 <img src="src\assets\ScreenShots\logo.PNG">
 
