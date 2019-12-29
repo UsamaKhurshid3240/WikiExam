@@ -5,6 +5,7 @@ Online Exam System App(WikiExam)
 npm install
 
 ionic serve
+
 ### Logo
 <img src="src\assets\ScreenShots\logo.PNG">
 
