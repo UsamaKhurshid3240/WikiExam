@@ -113,8 +113,6 @@ Edit Profile
 ### 
 <img src="src\assets\ScreenShots\addquiz.PNG">
 
-
-
 ### 
 <img src="src\assets\ScreenShots\role.PNG">
 
