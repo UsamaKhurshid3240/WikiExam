@@ -2,7 +2,7 @@
 Online Exam System App(WikiExam)
 
 ### Run
-
+npm install
 ### Logo
 <img src="src\assets\ScreenShots\logo.PNG">
 
