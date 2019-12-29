@@ -94,7 +94,6 @@ Social Login (Facebook)
 <img src="src\assets\ScreenShots\res1.PNG">
 
 ### Teacher Panel
-
 <img src="src\assets\ScreenShots\tm.PNG">
 
 ### Profile Page
