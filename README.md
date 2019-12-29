@@ -69,10 +69,6 @@ See All Result
 
 <img src="src\assets\ScreenShots\stm.PNG">
 
-
-
-
-
 ###  Profile Page
 <img src="src\assets\ScreenShots\stprofile.PNG">
 
