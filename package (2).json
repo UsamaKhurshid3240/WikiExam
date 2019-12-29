@@ -1,0 +1,30 @@
+{
+  "name": "nodejsapp_usama",
+  "version": "1.0.0",
+  "description": "",
+  "main": "firstnode.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node firstnode.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "firebase": "^7.5.2",
+    "firebaseauth": "^1.0.0",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.5",
+    "nodemailer": "^6.4.1",
+    "passport": "^0.4.0",
+    "passport-facebook": "^3.0.0",
+    "random-number": "0.0.9",
+    "randomatic": "^3.1.1",
+    "toastr": "^2.1.4",
+    "transporter": "0.0.1"
+  }
+}
