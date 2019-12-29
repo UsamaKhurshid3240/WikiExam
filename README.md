@@ -73,7 +73,6 @@ Social Login (Facebook)
 ### Edit Profile
 <img src="src\assets\ScreenShots\onedit.PNG">
 
-
 ### Take Quiz/Exam
 
 ### 
