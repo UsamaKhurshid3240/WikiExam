@@ -130,6 +130,11 @@ Edit Profile
 
 
 ### 
+<img src="src\assets\ScreenShots\netlify.PNG">
+
+
+
+### 
 <img src="src\assets\ScreenShots\dobn.PNG">
 
 <video width="400" controls>
@@ -139,8 +144,5 @@ Edit Profile
 
 
 
-
-### 
-<img src="src\assets\ScreenShots\netlify.PNG">
 
 
