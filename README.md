@@ -62,50 +62,70 @@ See All Students
 
 See Student Record
 
-
+### 
 <img src="src\assets\ScreenShots\login.PNG">
 
-
+### 
 <img src="src\assets\ScreenShots\Signup.PNG">
 
+### 
 <img src="src\assets\ScreenShots\fb.PNG">
 
+### 
 <img src="src\assets\ScreenShots\gg.PNG">
 
+### 
 <img src="src\assets\ScreenShots\adm.PNG">
 
+### 
 <img src="src\assets\ScreenShots\stm.PNG">
 
+### 
 <img src="src\assets\ScreenShots\tm.PNG">
 
+### 
 <img src="src\assets\ScreenShots\add1.PNG">
 
+### 
 <img src="src\assets\ScreenShots\addquiz.PNG">
 
+### 
 <img src="src\assets\ScreenShots\onedit.PNG">
 
+### 
 <img src="src\assets\ScreenShots\stprofile.PNG">
 
+### 
 <img src="src\assets\ScreenShots\tp.PNG">
 
+### 
 <img src="src\assets\ScreenShots\tp1.PNG">
 
+### 
 <img src="src\assets\ScreenShots\tp2.PNG">
 
+### 
 <img src="src\assets\ScreenShots\studentlist.PNG">
 
+### 
 <img src="src\assets\ScreenShots\teacherlist.PNG">
 
+### 
 <img src="src\assets\ScreenShots\tk1.PNG">
 
+### 
 <img src="src\assets\ScreenShots\tk2.PNG">
 
+### 
 <img src="src\assets\ScreenShots\tk3.PNG">
 
+### 
 <img src="src\assets\ScreenShots\tkq.PNG">
 
+### 
 <img src="src\assets\ScreenShots\res.PNG">
 
+### 
 <img src="src\assets\ScreenShots\res1.PNG">
 
 
