@@ -129,7 +129,6 @@ Edit Profile
 <img src="src\assets\ScreenShots\dobn.PNG">
 
 ### Deploy Nodejs Server on Netlify
-### 
 <img src="src\assets\ScreenShots\netlify.PNG">
 
 <video width="400" controls>
