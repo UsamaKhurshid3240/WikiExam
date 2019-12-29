@@ -7,6 +7,8 @@ npm install
 
 ionic serve
 
+Open localhost:3000 in browser
+
 ### Logo
 <img src="src\assets\ScreenShots\logo.PNG">
 
