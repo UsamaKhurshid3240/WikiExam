@@ -32,12 +32,6 @@ Social Login (Facebook)
  
 <img src="src\assets\ScreenShots\adm.PNG">
 
-
-
-
-
-
-
 ### Students List
 <img src="src\assets\ScreenShots\studentlist.PNG">
 
