@@ -1,7 +1,7 @@
 # WikiExam
 Online Exam System App(WikiExam)
 
-### Run
+### Run Commands
 
 npm install
 
