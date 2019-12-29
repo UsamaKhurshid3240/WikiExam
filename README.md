@@ -47,7 +47,7 @@ See All Result
 
 
 ### Search Any Student
-<img src="src\assets\ScreenShots\srch.PNG">
+<img src="src\assets\ScreenShots\srch1.PNG">
 
 Search Any Teacher
 
