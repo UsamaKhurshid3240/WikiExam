@@ -45,7 +45,7 @@
     "jwt-decode": "^2.2.0",
     "mdb": "^0.1.0",
     "mdbootstrap": "^4.10.1",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "ngx-datatable": "^1.0.3",
     "react": "^16.12.0",
     "rxjs": "~6.5.1",
